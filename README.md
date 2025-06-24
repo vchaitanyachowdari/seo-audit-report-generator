@@ -186,7 +186,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Email**: support@seoaudit.com
+- **Email**: support@vcaicreator.com
 - **Documentation**: [/docs](/docs)
 - **Issues**: [GitHub Issues](https://github.com/vchaitanyachowdari/seo-audits-generator/issues)
 
