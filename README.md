@@ -2,6 +2,8 @@
 
 A modern, AI-powered SaaS platform that provides comprehensive SEO audits and conversion rate optimization insights for landing pages and websites.
 
+<img width="1470" alt="Screenshot 2025-06-24 at 1 02 18 PM" src="https://github.com/user-attachments/assets/bb101d44-ef90-43e5-ac13-8830d779c3d7" />
+
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/v-chaitanya-chowdaris-projects/v0-conversion-rate-optimizer)
 [![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/JQlE2d4u8Tb)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
@@ -61,35 +63,35 @@ A modern, AI-powered SaaS platform that provides comprehensive SEO audits and co
 ### Installation
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/vchaitanyachowdari/seo-audits-generator.git
    cd seo-audits-generator
-   \`\`\`
+   ```
 
 2. **Install dependencies**
-   \`\`\`bash
+   ```bash
    npm install
    # or
    yarn install
-   \`\`\`
+   ```
 
 3. **Set up environment variables**
-   \`\`\`bash
+   ```bash
    cp .env.example .env.local
-   \`\`\`
+   ```
    
    Add your environment variables:
-   \`\`\`env
+   ```env
    N8N_WEBHOOK_URL=your_n8n_webhook_url_here
    NEXT_PUBLIC_APP_URL=http://localhost:3000
-   \`\`\`
+   ```
 
 4. **Run the development server**
-   \`\`\`bash
+   ```bash
    npm run dev
    # or
    yarn dev
-   \`\`\`
+   ```
 
 5. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
@@ -103,7 +105,7 @@ A modern, AI-powered SaaS platform that provides comprehensive SEO audits and co
 4. Receive comprehensive report via email
 
 ### **API Integration**
-\`\`\`javascript
+```javascript
 // Example API call
 const response = await fetch('/api/audit', {
   method: 'POST',
@@ -117,11 +119,11 @@ const response = await fetch('/api/audit', {
 });
 
 const result = await response.json();
-\`\`\`
+```
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 ├── app/                    # Next.js App Router
 │   ├── api/               # API routes
 │   ├── (pages)/           # Page components
@@ -133,7 +135,7 @@ const result = await response.json();
 ├── hooks/                # Custom React hooks
 ├── public/               # Static assets
 └── styles/               # Additional styles
-\`\`\`
+```
 
 ## 🔧 Configuration
 
