@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
 
     // Here you would integrate with your n8n webhook
     // For now, we'll simulate the webhook call
-    const webhookUrl = process.env.N8N_WEBHOOK_URL || "https://your-n8n-instance.com/webhook/audit"
+    const webhookUrl = process.env.N8N_WEBHOOK_URL 
 
     try {
       const webhookResponse = await fetch(webhookUrl, {
